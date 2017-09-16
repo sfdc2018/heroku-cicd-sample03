@@ -1,0 +1,9 @@
+{
+  "name": "heroku-cicd-sample01",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "server.js"
+  },
+  "dependencies": {
+  }
+}
