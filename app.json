@@ -1,12 +1,16 @@
 {
   "name": "heroku-cicd-sample01",
-  "scripts": {},
   "env": {
     "MESSAGE": {
     }
   },
-  "formation": {},
-  "addons": [],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "node test.js"
+      }
+    }
+  },
   "buildpacks": [
     {
       "url": "heroku/nodejs"
