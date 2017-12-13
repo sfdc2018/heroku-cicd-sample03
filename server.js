@@ -4,7 +4,7 @@ var url = require('url');
 var port = process.env.PORT || 8081;
 var message = process.env.MESSAGE || '?';
 
-var message_color = 'Blue';
+var message_color = 'Black';
 
 var html_start = '<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8" /></head><body style="text-align: center;">';
 var html_body = '<img src="astro.png"></img><h1 style="color: ' + message_color + ';font-size: 6em;margin: 0px;">ようこそ!</h1><h2>Salesforce Basecamp 2017</h2><h3>Platform Keynote～AI時代のSalesforce Platform</h3>';
