@@ -1,5 +1,5 @@
 {
-  "name": "heroku-cicd-sample01",
+  "name": "heroku-cicd-sample03",
   "version": "0.0.1",
   "scripts": {
     "start": "server.js"
