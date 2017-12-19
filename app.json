@@ -2,6 +2,7 @@
   "name": "heroku-cicd-sample03",
   "env": {
     "MESSAGE": {
+      "message":"TEST"
     }
   },
   "environments": {
