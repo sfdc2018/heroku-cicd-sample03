@@ -5,11 +5,11 @@ var port = process.env.PORT || 8081;
 var message = process.env.MESSAGE || '?';
 
 
-var message_color = 'Black';
+var message_color = 'Blue';
 
 
 var html_start = '<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8" /></head><body style="text-align: center;">';
-var html_body = '<img src="astro.png"></img><h1 style="color: ' + message_color + ';font-size: 6em;margin: 0px;">ようこそ!</h1><h2>Dreamforce 2017</h2><h3>2017年11月6日〜9日　米国サンフランシスコにて開催</h3>';
+var html_body = '<img src="astro.png"></img><h1 style="color: ' + message_color + ';font-size: 6em;margin: 0px;">ようこそ!</h1><h2>Dreamforce 2018</h2><h3>2018年9月25日〜28日　米国サンフランシスコにて開催</h3>';
 var html_end = '</body></html>';
 
 var server = http.createServer((req, res) => {
