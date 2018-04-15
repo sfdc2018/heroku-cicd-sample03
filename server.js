@@ -5,7 +5,7 @@ var port = process.env.PORT || 8081;
 var message = process.env.MESSAGE || '?';
 
 
-var message_color = 'Blue';
+var message_color = 'Red';
 
 
 var html_start = '<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8" /></head><body style="text-align: center;">';
