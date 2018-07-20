@@ -5,11 +5,11 @@ var port = process.env.PORT || 8081;
 var message = process.env.MESSAGE || '?';
 
 
-var message_color = 'Blue';
+var message_color = 'Red';
 
 
 var html_start = '<!DOCTYPE html><html lang="ja"><head><meta charset="utf-8" /></head><body style="text-align: center;">';
-var html_body = '<img src="astro.png"></img><h1 style="color: ' + message_color + ';font-size: 6em;margin: 0px;">来週Summerイベント</h1><h2>AWS Summit 2018</h2><h3>2018年5月30日〜6月1日 開催中</h3>';
+var html_body = '<img src="astro.png"></img><h1 style="color: ' + message_color + ';font-size: 6em;margin: 0px;">今週Summerイベント</h1><h2>AWS Summit 2018</h2><h3>2018年5月30日〜6月1日 開催中</h3>';
 var html_end = '</body></html>';
 
 var server = http.createServer((req, res) => {
